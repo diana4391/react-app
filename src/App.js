@@ -5,6 +5,13 @@ function App() {
       <p>Student: Diana</p>
       <p>This page is deployed with GitHub Pages.</p>
 
+      <img
+        src={process.env.PUBLIC_URL + "/myphoto.jpg"}
+        alt="My work"
+        style={{ width: "100%", borderRadius: "12px", marginTop: "12px" }}
+      />
+
+      <br /><br />
       <button
         onClick={() => alert("Hello! React is working 🎉")}
         style={{
