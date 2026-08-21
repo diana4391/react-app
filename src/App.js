@@ -4,10 +4,12 @@ function App() {
       <h1>My React Homework</h1>
       <p>Student: Diana</p>
       <p>This page is deployed with GitHub Pages.</p>
-      
-      <p style={{ marginTop: "100px", fontSize: "18px", color: "#666" }}>
-        🖼️ Image will be added here
-      </p>
+
+      <img
+        src="/retra-rise.jpg"
+        alt="My work"
+        style={{ width: "100%", borderRadius: "12px", marginTop: "100px" }}
+      />
 
       <br /><br />
       <button
