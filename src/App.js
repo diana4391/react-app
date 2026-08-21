@@ -1,3 +1,5 @@
+import retraRiseImage from './retra-rise.jpg';
+
 function App() {
   return (
     <main style={{ padding: "24px", fontFamily: "Arial, sans-serif" }}>
@@ -6,7 +8,7 @@ function App() {
       <p>This page is deployed with GitHub Pages.</p>
 
       <img
-        src={`${process.env.PUBLIC_URL}/retra-rise.jpg`}
+        src={retraRiseImage}
         alt="My work"
         style={{ width: "100%", borderRadius: "12px", marginTop: "100px" }}
       />
