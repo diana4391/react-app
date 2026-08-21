@@ -8,7 +8,7 @@ function App() {
       <img
         src={process.env.PUBLIC_URL + "/retra-rise.jpg"}
         alt="My work"
-        style={{ width: "100%", borderRadius: "12px", marginTop: "12px" }}
+        style={{ width: "100%", borderRadius: "12px", marginTop: "100px" }}
       />
 
       <br /><br />
