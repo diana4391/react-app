@@ -6,7 +6,7 @@ function App() {
       <p>This page is deployed with GitHub Pages.</p>
 
       <img
-        src="https://raw.githubusercontent.com/diana4391/react-app/main/public/retra-rise.jpg"
+        src={`${process.env.PUBLIC_URL}/retra-rise.jpg`}
         alt="My work"
         style={{ width: "100%", borderRadius: "12px", marginTop: "100px" }}
       />
